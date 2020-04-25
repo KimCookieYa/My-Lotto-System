@@ -61,6 +61,7 @@ class MainActivity : AppCompatActivity() {
             str = doc.select("meta")[2].attr("content")
             str = str.split(". ")[0]
             winningNumberText.text = str
+
         }
 
 
